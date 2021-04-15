@@ -1,6 +1,18 @@
 # School District Analysis
 
 ## Overview
+A School Board looked at the data of an initial analysis and asked to see an analysis without the grades for math and reading for Thomas High School 9th graders as it seemed that the information provided in the student data for those students had been altered.  The purpose of this analysis is to see if the findings show any discrepencies.
+
+In the initial analysis the School Board provided school and student data for the district.  The school data provided had the following columns:
+__School ID, School Name, Type (of school), Size and Budget.__
+
+The student data consisted of these columns:
+__Student ID, Student Name, Gender, Grade, School Name, Reading Score and Math Score__
+
+The initial analysis gathered together information about the schools and students into these summaries:
+__District Summary, Per School Summary, Per School Capita, Spending Summary, Summary based on School Size, Summary based on type of School, Top Schools and Bottom Schools, Math Scores by Grade, Reading Scores by Grade__
+
+This analysis will show through the initial outputs and the outputs without Thomas High School 9th graders how the results vary.
 
 ## Results
 
