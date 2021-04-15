@@ -12,7 +12,10 @@ __Student ID, Student Name, Gender, Grade, School Name, Reading Score and Math S
 The initial analysis gathered together information about the schools and students into these summaries:
 __District Summary, Per School Summary, Per School Capita, Spending Summary, Summary based on School Size, Summary based on type of School, Top Schools and Bottom Schools, Math Scores by Grade, Reading Scores by Grade__
 
-This analysis will show through the initial outputs and the outputs without Thomas High School 9th graders how the results vary.
+## Setup
+This analysis will show through the initial outputs and the outputs without Thomas High School 9th graders how the results vary so to begin the first step is to remove the grades for those students.  Here is the output, which shows (with the red lines) that Thomas High School 9th Graders have had their grades removed from analysis by replacing their grades with NaN, Not a Number.
+
+
 
 ## Results
 
