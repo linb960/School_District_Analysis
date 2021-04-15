@@ -15,7 +15,8 @@ __District Summary, Per School Summary, Per School Capita, Spending Summary, Sum
 ## Setup
 This analysis will show through the initial outputs and the outputs without Thomas High School 9th graders how the results vary so to begin the first step is to remove the grades for those students.  Here is the output, which shows (with the red lines) that Thomas High School 9th Graders have had their grades removed from analysis by replacing their grades with NaN, Not a Number.
 
-
+![](https://github.com/linb960/School_District_Analysis/blob/main/Resources/THS_9th_Grade_NaN.png)
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/THS_9th_Grade_NaN.png" width="400" height="200" />
 
 ## Results
 
