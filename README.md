@@ -20,8 +20,28 @@ This analysis will show through comparision how the initial analysis and the ana
 ## Results
 
 ### How the District Summary has been affected
+By removing the ninth graders grades for Thomas High School the differences in the percentages are very minimal and can be seen below:
+
+__Initial District Summary__
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Initial_District_Summary.png"  />
+
+__THS 9th Graders Grade removed__
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/District_Summary_wo_9th.png" />
+
 
 ### How the School Summary has been affected
+The School Summary below provides a more granular level look at the percentages.  Where above in the district summary there are 39,170 students grades all summarized together with only 461 who are Thomas High School 9th graders the summary is only slightly affected.
+
+Here the analysis is specifically interested in the grades for the Thomas High School and the school summary outputs below show the initial analysis and the refactored analysis when the 9th graders grade were removed.
+
+The % Passing Math, % Passing Reading and the % Overall Passing show clearly that without the 9th graders grades the percentages drop significantly.  
+
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_header.png"  />
+
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Initial_Per_School_Summary.png"  />
+
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_wo_9th.png" />
+
 
 ### How replacing the ninth grade math and reading scores affected Thomas High School performance
 
