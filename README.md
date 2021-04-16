@@ -71,6 +71,13 @@ The Bottom Schools did not change.
 
 #### Math and Reading scores by grade
 
+__Math Scores__
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/math_scores_by_grade.png" width="200" height="300" />
+
+__Reading Scores__
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/reading_scores_by_grade.png" width="200" height="300" />
+
+
 #### Scores by school spending
 
 #### Scores by school size
