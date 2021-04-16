@@ -53,7 +53,7 @@ __Initial School Summary for Thomas High School__
 __School Summary with 9th Graders removed__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_w_9th_asNaN.png" />
 
-When Thomas High School scores are calculated on 10th, 11th and 12th graders passing scores only and dividing by 1174 total students which removes 9th graders from the total of 1635 we see that the scores once again go up to close the original output.
+When Thomas High School scores are calculated on 10th, 11th and 12th graders passing scores only and dividing by 1174 total students which removes 9th graders from the total of 1635 we see that the scores once again go up to close the original output.<br>
 __School Summary for 10th, 11th and 12th only__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_wo_9th.png" />
 
@@ -71,26 +71,32 @@ The Bottom Schools did not change.
 
 #### Math and Reading scores by grade
 
-With the grades for 9th graders as NaN here are the rest of the Math and Scores for the schools.<br>
+The Math and Reading Scores for the schools by grade with 9th graders grades from THS set to NaN show scores identical to what was seen in the initial analysis.<br>
 __Math Scores__
 <br>
-<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/math_scores_by_grade.png" width="200" height="300" />
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/math_scores_by_grade.png" width="300" height="400" />
 <br>
 __Reading Scores__
 <br>
-<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/reading_scores_by_grade.png" width="200" height="300" />
-
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/reading_scores_by_grade.png" width="300" height="400" />
+<br>
 
 #### Scores by school spending
+Here we can see that Thomas High School spends between $630-644 per student. With all the schools grouped by spending the output below shows % passing math and overall for that amount of spending to be 73% and 63%. <b>
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/per_school_summary_ths.png" />
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/spending_summary.png" />
 
 #### Scores by school size
+Thomas High School has 1635 students and fits in the Medium size school here in this summary.
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/size_summary.png" />
 
 #### Scores by school type
+Thomas High School is a Charter School.
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/type_summary.png" />
 
 
 ## Summary
+
+
+More spent better grades?  
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
