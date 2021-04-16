@@ -13,7 +13,7 @@ __Student ID, Student Name, Gender, Grade, School Name, Reading Score and Math S
 The initial analysis gathered together information about the schools and students into these summaries:<br>
 __District Summary, Per School Summary, Per School Capita, Spending Summary, Summary based on School Size, Summary based on type of School, Top Schools and Bottom Schools, Math Scores by Grade, Reading Scores by Grade__
 
-## Setup for Analysis
+## Setup for Analysis - Set Thomas High School 9th Grade scores to NaN
 
 This analysis will show through comparision how the initial analysis and the analysis without Thomas High School 9th graders vary.  Here in the output below you can see that the Thomas High School 9th Graders have had their grades removed from analysis by replacing their grades with NaN (Not a number). (Red lines added for emphasis.)
 
@@ -54,6 +54,7 @@ __School Summary with 9th Graders removed__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_w_9th_asNaN.png" />
 
 When Thomas High School scores are calculated on 10th, 11th and 12th graders passing scores only and dividing by 1174 total students which removes 9th graders from the total of 1635 we see that the scores once again go up to close the original output.<br>
+
 __School Summary for 10th, 11th and 12th only__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_wo_9th.png" />
 
@@ -96,7 +97,17 @@ Thomas High School is a Charter School.
 
 
 ## Summary
+Overall the analysis of the data with the Thomas High School 9th graders math and reading grades removed showed some changes.  
 
+- Three changes are seen in the school summary when the 9th grade scores above 70% in math reading are removed from the school scores.
+  - % Passing math drops from 93.27% to 66.91% 
+  - % Passing reading drops from 97.3% to 69.66%.  
+  - % Overall Passing drops from 90.94% to 65.08%
+- A fourth change is seen when Thomas High School drops from second in the top five schools to completely out of the top five.
+- In the Scores by School Spending we see that schools that spend more money, like Thomas High School which is a medium sized school with a higher budget, don't have overall high scores.
+- Also in Score by School Size we see schools over 2000 have lower test scores.  Since Thomas High School has 1635 students, is that a contributer to lower test scores.
+- Finally, charter schools do better then district schools significantly as seen in overall passing percentage difference of 90 for charter and 54 for district.
 
-More spent better grades?  
-Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Conclusion
+
+A question in conclusion do these findings shows that somehow the 9th graders grades have been altered by giving students higher scores?  But another thing we need to look at and consider is if we take all the students out of a calculation with NaN and then only count those students who pass, 70 or above and then divide by all the students of the school, including the ones who have NaN grades, are the percentages being skewed?  Because we see that once the 10th, 11th, and 12 graders are the only ones counted the percentages goes up.  Based on these findings I would advise the School Board to consider retesting the 9th graders at Thomas High School to get an accurate picture of exactly what is going on.
