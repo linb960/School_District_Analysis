@@ -1,7 +1,7 @@
 # School District Analysis
 
 ## Overview
-A School District Board recieved an initial analysis of some data they provided.  After reviewing the data they asked to see the analysis without the math and reading grades for the Thomas High School 9th graders.  There was some concern that the information provided in the student data for those students had been altered.  The purpose of this analysis is to see if the findings show any discrepencies.
+A School District Board recieved an initial analysis of some data they provided.  After reviewing the data they asked to see the analysis without the math and reading grades for the Thomas High School 9th graders.  Thomas High School has 1635 students and 461 are 9th graders.  The School Board has some concern that the information provided in the student data for those students had been altered.  The purpose of this analysis is to see if the findings show any discrepencies.
 
 In the initial analysis the School Board provided the analyst with school and student data for the district.  The school data had the following columns:<br>
 __School ID, School Name, Type (of school), Size and Budget.__
@@ -17,10 +17,13 @@ This analysis will show through comparision how the initial analysis and the ana
 
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/THS_9th_Grade_NaN.png" width="600" height="300" />
 
+## How Results are Calculated
+The results in the analysis are looking to see if by removing the grades of the ninth graders from Thomas High School affect the overall percentage of passing students in math and reading.  To run these calculations, per the setup, all 9th grade grades for THS are set to NaN.  Only scores above or equal to 70% are considered passing.  The students who pass is then divided by the total students (district and then school only) and multiplied by 100 to get the percentage of passing in each, math and reading, and in both math and reading.  
+
 ## Results
 
 ### How the District Summary has been affected
-By removing the ninth graders grades for Thomas High School the differences in the percentages are very minimal and can be seen below:
+By removing the ninth graders grades for Thomas High School the differences in the percentages are very minimal with overall passing dropping from 65.2% to 64.9%. This minimal drop could be expected since there are 39,170 students in the disctrict and only 461 are 9th graders at THS.  A percentage of the population of only 1.2%. Here are the outputs 
 
 __Initial District Summary__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Initial_District_Summary.png"  />
@@ -30,16 +33,17 @@ __THS 9th Graders Grade removed__
 
 
 ### How the School Summary has been affected
-The School Summary below provides a more granular level look at the percentages.  Where above in the district summary there are 39,170 students grades all summarized together with only 461 who are Thomas High School 9th graders the summary is only slightly affected.
+The School Summary below provides a more granular level look at the percentages.  Where above in the district summary the 9th graders were only 1.2% of the overall population, they are now 39.3% of the school population.
 
 Here the analysis is specifically interested in the grades for the Thomas High School and the school summary outputs below show the initial analysis and the refactored analysis when the 9th graders grade were removed.
 
-The % Passing Math, % Passing Reading and the % Overall Passing show clearly that without the 9th graders grades the percentages drop significantly.  
+The % Passing Math, % Passing Reading and the % Overall Passing show clearly that without the 9th graders grades the percentages drop significantly. When the 9th grade scores above 70% in math and reading are removed from the school scores reading drops passing math drops from 93.27% to 66.91% and reading drops from 97.3% to 69.66%.  Here are the outputs:
 
+__Initial School Summary for Thomas High School__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_header.png"  />
-
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Initial_Per_School_Summary.png"  />
 
+__School Summary with 9th Graders removed__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_wo_9th.png" />
 
 
