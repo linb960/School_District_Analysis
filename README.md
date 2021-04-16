@@ -71,18 +71,24 @@ The Bottom Schools did not change.
 
 #### Math and Reading scores by grade
 
-__Math Scores__
+With the grades for 9th graders as NaN here are the rest of the Math and Scores for the schools.
+
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/math_scores_by_grade.png" width="200" height="300" />
+__Math Scores__
 
-__Reading Scores__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/reading_scores_by_grade.png" width="200" height="300" />
-
+__Reading Scores__
 
 #### Scores by school spending
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/per_school_summary_ths.png" />
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/spending_summary.png" />
 
 #### Scores by school size
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/size_summary.png" />
 
 #### Scores by school type
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/type_summary.png" />
+
 
 ## Summary
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
