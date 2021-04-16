@@ -37,13 +37,18 @@ The School Summary below provides a more granular level look at the percentages.
 
 Here the analysis is specifically interested in the grades for the Thomas High School and the school summary outputs below show the initial analysis and the refactored analysis when the 9th graders grade were removed.
 
-The % Passing Math, % Passing Reading and the % Overall Passing show clearly that without the 9th graders grades the percentages drop significantly. When the 9th grade scores above 70% in math and reading are removed from the school scores reading drops passing math drops from 93.27% to 66.91% and reading drops from 97.3% to 69.66%.  Here are the outputs:
+The % Passing Math, % Passing Reading and the % Overall Passing show clearly that without the 9th graders grades the percentages drop significantly. When the 9th grade scores above 70% in math and reading are removed from the school scores reading drops passing math drops from 93.27% to 66.91% and reading drops from 97.3% to 69.66%.  
+
+Here are the outputs:
 
 __Initial School Summary for Thomas High School__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_header.png"  />
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Initial_Per_School_Summary.png"  />
 
 __School Summary with 9th Graders removed__
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_w_9th_asNaN.png" />
+
+__Output for Thomas High School calculated on 10th, 11th and 12th graders passing scores only and dividing by 1174 total students rather then 1635__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_wo_9th.png" />
 
 
