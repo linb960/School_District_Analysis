@@ -48,13 +48,20 @@ __Initial School Summary for Thomas High School__
 __School Summary with 9th Graders removed__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_w_9th_asNaN.png" />
 
-__Output for Thomas High School calculated on 10th, 11th and 12th graders passing scores only and dividing by 1174 total students rather then 1635__
+When Thomas High School scores are calculated on 10th, 11th and 12th graders passing scores only and dividing by 1174 total students which removes 9th graders from the total of 1635 we see that the scores once again go up to close the original output.
+__School Summary for 10th, 11th and 12th only__
 <img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Per_School_Summary_wo_9th.png" />
 
+### How replacing the ninth grade math and reading scores affected Thomas High School performance relative to other schools
+In the initial analysis Thomas High School with it's overall passing percentage above 90% placed it in the top 5 schools in the district.  But when the analysis was done here and the ninth graders percentages were removed Thomas High School moved out of the top 5 because it's overall passing percentage went to 65%.  Here is a look at the Top 5 with 9th graders from THS removed.
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Top_Schools_w_9th_NaN.png" />
 
-### How replacing the ninth grade math and reading scores affected Thomas High School performance
+This is what the Top Schools look like with just Thomas High School 10th, 11th and 12th Graders.  This shows that their grades were good enough to bring them into the top 5 schools.
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Top_Schools_wo9th.png" />
 
-#### Relative to other schools
+The Bottom Schools did not change.
+<img src="https://github.com/linb960/School_District_Analysis/blob/main/Resources/Bottom_Schools.png" />
+
 
 #### Math and Reading scores by grade
 
